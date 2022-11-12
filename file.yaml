@@ -1,0 +1,16 @@
+file_type: csv
+dataset_name: testfile
+file_name: custom_1988_2020
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - ym_year_month
+    - exp_imp_export_1_import_2
+    - hs9_hs_code
+    - customs
+    - country
+    - q1
+    - q2_quantity
+    - value_in_thousands_of_yen
